@@ -1,7 +1,6 @@
-# Self-Driving-Vehicle-Control
+# Longitudinal and lateral steering control for self-driving vehicles
 This poject is the final project assignment of introduction to Self Driving Cars course offered by University of Toronto on Coursera. The "controller2d.py" file contains a controller object. I implemented the controller in the update_controls method.
-[video]
-https://www.youtube.com/watch?v=Pu3B4sGw5uc&pbjreload=10
+
 ## Self Driving Cars Longitudinal and Lateral Control Design
 In this project, I implemented a controller in Python and used it to drive a car autonomously around a track in Carla Simulator.
 The output of the controller will be the vehicle throttle, brake and steering angle commands.
@@ -106,4 +105,8 @@ For lateral control, I implemented the Stanley controller. The Stanley method is
 ![image](https://user-images.githubusercontent.com/59261333/73640845-a9150100-4677-11ea-8c9c-4e0e5f906bec.png)
 
 When e is non-zero, the second term adjusts δ such that the intended trajectory intersects the path tangent at kv(t) units from the front axle.
+
+## Results
+
+https://user-images.githubusercontent.com/69358122/221605479-f10f95dd-7857-4d97-87b2-eb2052fe10e3.mp4
 
